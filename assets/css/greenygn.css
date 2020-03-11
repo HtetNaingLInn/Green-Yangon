@@ -1,0 +1,383 @@
+/* Body */
+body {
+    min-height: 100vh;
+    padding-bottom: 50px;
+    position: relative;
+}
+/* Body End*/
+
+/* Preloading */
+.preloading_container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.Green_Animate_Svg {
+    width: 200px;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Green_Animate_Text {
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+/* Preloading End*/
+
+
+/* 404 Errors  */
+.container_404 {
+    text-align: center;
+    color: #a2a2a2;
+}
+
+.errors_404_svg {
+    width: 300px;
+}
+
+.container_404 a {
+    color: #4285f4;
+}
+/* 404 Errors End*/
+
+/* Footer */
+.scroll_top_container {
+    width: 50px;
+    background: #28A745;
+    position: fixed;
+    right: 5px;
+    bottom: 20px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.scroll_top_container  i {
+    position: relative;
+    left: 9px;
+    top: 8px;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.footer {
+    color: #80868b;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display:block;
+    font-weight: bolder;
+    z-index: 1;
+    clear: both;			
+}
+
+.footer > ul {
+    list-style: none;
+    margin: 0;
+    padding: 3px;
+    text-align: center;
+}
+.footer > ul > li {
+    display: inline-block;
+}
+.footer > ul > li:after {
+    content: " | ";
+    display: inline-block;
+}
+.footer > ul > li:last-child:after {
+    content: "";
+    display: inline-block;
+}
+.footer > ul > li > a {
+    color: #4285f4;
+}
+.footer > ul > li > a:hover {
+    text-decoration: none;
+}
+/* FooterEnd */
+
+/* Team User View */
+.TeamImage {
+    width: 180px;
+    margin: auto;
+}
+
+.TeamImage > img {
+    width: 100%;
+}
+.TeamImage .ImageContainer {
+    border-radius: 2px;
+    min-height: 200px;
+    background-color: #f3f3f3;
+}
+.TeamImage .ImageNeedBg {
+    width: 100%;
+}
+/* Team User View End */
+
+/* Admin Or User List Images Div */
+.AdminUserListTable {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+/* Admin Or User List Images Div End*/
+
+/* Plants Edit Image*/
+.PlantBackgroundChange {
+    height: 300px;
+}
+
+.PlantBackgroundChange > div{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+/* Plants Edit Image End */
+
+/* DashBoard */
+
+.DashBoard_Card_1 {
+    background: #b8e1fc; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #b8e1fc 0%, #a9d2f3 10%, #90bae4 25%, #90bcea 37%, #90bff0 50%, #6ba8e5 51%, #a2daf5 83%, #bdf3fd 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #b8e1fc 0%,#a9d2f3 10%,#90bae4 25%,#90bcea 37%,#90bff0 50%,#6ba8e5 51%,#a2daf5 83%,#bdf3fd 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #b8e1fc 0%,#a9d2f3 10%,#90bae4 25%,#90bcea 37%,#90bff0 50%,#6ba8e5 51%,#a2daf5 83%,#bdf3fd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8e1fc', endColorstr='#bdf3fd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.DashBoard_Card_2 {
+    background: #feccb1; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #feccb1 0%, #f17432 50%, #ea5507 51%, #fb955e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#fb955e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.DashBoard_Card_3 {
+    background: #ff7cd8;
+    background: -webkit-linear-gradient(45deg, rgba(237,222,223,1) 0%,rgba(253,137,215,1) 51%,rgba(251,166,225,1) 52%,rgba(251,166,225,1) 52%,rgba(255,124,216,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(237,222,223,1) 0%,rgba(253,137,215,1) 51%,rgba(251,166,225,1) 52%,rgba(251,166,225,1) 52%,rgba(255,124,216,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eddedf', endColorstr='#ff7cd8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.DashBoard_Card_4 {
+    background: rgb(239,197,202); /* Old browsers */
+    background: -moz-linear-gradient(45deg, rgba(239,197,202,1) 0%, rgba(210,75,90,1) 50%, rgba(186,39,55,1) 51%, rgba(241,142,153,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(239,197,202,1) 0%,rgba(210,75,90,1) 50%,rgba(186,39,55,1) 51%,rgba(241,142,153,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(239,197,202,1) 0%,rgba(210,75,90,1) 50%,rgba(186,39,55,1) 51%,rgba(241,142,153,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', endColorstr='#f18e99',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */    
+}
+
+.DashBoard_Card_5 {
+    background: rgb(157,213,58); /* Old browsers */
+    background: -moz-linear-gradient(45deg, rgba(157,213,58,1) 0%, rgba(161,213,79,1) 50%, rgba(128,194,23,1) 51%, rgba(124,188,10,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */    
+}
+
+/* DashBoard End */
+
+/* All Buttons */
+.btn , .form-control, .breadcrumb,
+.card, .list-group-item:first-child,
+.list-group-item:last-child,
+.dropdown-menu {
+    border-radius: 2px;
+}
+/* All Buttons End*/
+
+/* Plant List Card Image */
+.Plant_Card_Bg_Image {
+    width: 100%;
+    height: 150px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.Plant_Card_Badge {
+    position: relative;
+    font-size: 0.8rem;
+    bottom: 1px;
+}
+
+.Plant_Shopping_Cart {
+    width: 60px;
+    height: 60px;
+    border-radius: 2px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.Plant_Shopping_Cart.sm {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+.Plant_Shopping_Cart_Input {
+    width: 42px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 5px;
+    position: relative;
+    top: 2px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    -moz-appearance: textfield;
+    text-align: center;
+}
+
+.Plant_Shopping_Cart_Input::-webkit-outer-spin-button,
+.Plant_Shopping_Cart_Input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.Add_Remove_Td {
+    min-width: 147px;
+}
+.Remove_Count:hover, .Add_Count:hover {
+    opacity: 0.5;
+}
+.Quantity {
+    min-width: 65px;
+}
+.Card_Svg_Container {
+    width: 100px;
+    margin: 15px auto;
+}
+/* Plant List Card Image End */
+
+.More_Image_Container {
+    height: 280px;
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Map Container */
+.mapContainer {
+    margin: 0 auto;
+    width: 240px;
+}
+
+/* WatchAndLogin */
+.WatchAndLogin {
+    height: 60vh;
+    background: #000;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/assets/images/logo/background.svg');
+    transition: all 0.2s linear;
+    filter: grayscale(50%);
+    position: relative;
+}
+
+.WatchAndLogin:hover {
+    filter: grayscale(20%);
+}
+
+.GetStartContainer {
+    width: 250px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+#GetStart_Boy_And_Girl {
+    transition: all 0.5s cubic-bezier(.75,-0.5,0,1.75);
+    transform-origin: 50% 70%;
+}
+#Getstart_Middle {
+    transform-origin: 50% 50%;
+    transition: all 0.3s cubic-bezier(.75,-0.5,0,1.75);
+}
+.get_start_cls-7, .get_start_cls-23 {
+    cursor: pointer;
+}
+
+/* Index Page HOver Container */
+
+.HoverContainer {
+    width: 100%;
+}
+.HoverContainer .Left, .HoverContainer .Right {
+    min-height: 80vh;
+    display: inline-block;
+    width: 50%;
+    /* background-color: #000; */
+}
+
+.HoverContainer .Right {
+    /* background: red; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/assets/images/hover/Img23.jpg'); 
+    transition: all 0.2s linear;
+    float: right;
+    position: relative;
+}
+
+.HoverContainer .Right:hover {
+    /* background: red; */
+    background-image: url('/assets/images/hover/Img24.jpg'); 
+}
+
+.RightLink  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.3rem;
+}
+
+
+.HoverContaine:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-clear {
+    content: "";
+    width: 100%;
+    height: 5px;
+    display: block;
+    clear: both;
+}
+
+@media screen and (max-width: 767px) {
+    .mapContainer {
+        width: 160px;
+    }
+
+    .More_Image_Container {
+        height: 220px;
+        background-position: center center;
+        background-attachment: scroll;
+    }
+}
+/* Map Container End */
